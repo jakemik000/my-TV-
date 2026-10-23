@@ -1,0 +1,15 @@
+plugins {
+    id 'com.android.application'
+}
+android {
+    namespace 'ru.happer.smartui'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId 'ru.happer.smartui'
+        minSdk 19
+        targetSdk 28
+        versionCode 1
+        versionName '1.0'
+    }
+}
